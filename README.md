@@ -1,1 +1,1 @@
-# Healthcare-web-app
+# Disease Prediction
