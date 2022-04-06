@@ -105,7 +105,7 @@ def model6(dt):
 def model7(dt):
     try:
         to_predict_list = list(map(int, dt))
-        lst = np.array(to_predict_list).reshape(1, 15)
+        lst = np.array(to_predict_list).reshape(1, 12)
         loaded_model = pickle.load(open("Models/lung_cancer.pkl", "rb"))
         result = loaded_model.predict(lst)
     except:
